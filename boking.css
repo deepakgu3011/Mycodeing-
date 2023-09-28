@@ -1,0 +1,56 @@
+* {
+    margin: 0;
+    padding: 0; 
+    }
+    
+.main {
+
+    display: flex;
+    font-size: 25px;
+    background: linear-gradient(orange, white, green);
+    width: 100%;
+    position: sticky;
+   
+    top: 0px;
+    
+    z-index: 1;
+}
+.main{
+  color:blue;
+}
+
+.logo {
+    width: 10vw;
+   
+}
+
+
+.navbar{
+    width: 100%;
+    justify-content: end;
+}
+.navbar-expand-lg .navbar-collapse{
+    justify-content: end;
+    
+  }
+.nav-item{
+    color: rgb(234, 13, 13);
+}
+.navbar-toggler-icon{
+color: red;
+}
+.nav-item:hover{
+    color: #2758b2;
+}
+.end h1{
+  height:100%;
+}
+#img{
+  margin-top: 20%;
+  border-radius:5px;
+  border:5px solid red;
+  border-right-color: green;
+  border-left-color: green;
+  border-collapse: collapse;
+
+}

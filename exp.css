@@ -1,0 +1,226 @@
+* {
+    margin: 0;
+    padding: 0;
+    scroll-behavior:smooth ;
+}
+
+
+.main {
+
+    display: flex;
+    font-size: 25px;
+    background: linear-gradient(orange, white, green);
+    width: 100%;
+    position: sticky;
+    top: 0px;
+    
+    z-index: 1;
+}
+.main{
+  color:blue;
+}
+.logo {
+    width: 10vw;
+    line-height: 7vh;
+}
+
+.logo img {
+    float: left;
+}
+
+
+
+
+
+/*footer*/
+footer{
+    background: linear-gradient(rgba(252, 164, 0, 0.816),white,green);
+  }
+  .fot{
+    width: 100%;
+    display: flex;
+    
+    padding: 2vw 0vw 2vw 0vw;
+    justify-content:space-around;
+  }
+  .about{
+    padding-top :  1vh;
+    color: blue;
+    text-align: justify;
+    width: 40vw;
+    font-size: 2vw;
+    
+  }
+  .about p{
+    font-size: 1.5vw;
+  }
+.cont{
+ 
+    padding: 1vw 0vw 1vw 0vw;
+    font-size: 1.8vw;
+}
+#ph{
+    color: blue;
+  
+    margin: 1vh;
+    }
+    
+#ph1{
+    color: blue;
+  
+    margin: 1vh;
+    }
+#wp{
+    color: green;
+    margin: 1vh;
+   
+}
+#loc{
+color: blue;
+margin: 1vh;
+}
+.cont0 a{
+color: rgb(0, 0, 0);
+text-decoration: none;
+}
+.btn{
+background-color: rgb(255, 167, 43);
+background: transparent;
+padding: 1vw;
+border: 2px solid rgb(85, 246, 87);
+border-radius: 1vw;
+cursor: pointer;
+}
+.btn:hover{
+    background-color:#2758b2 ;
+    color: white;
+}
+.edn{
+    width: 100%;
+    align-items: end;
+    color: blue;
+}
+.end{
+    background-color: #9c9696;
+    color: white;
+    text-align: center;
+    padding: 2vw;
+}
+.main1{
+display: flex;
+justify-content: space-around;
+}
+.audio{
+  padding: 2em;
+  
+}
+
+
+h1 {
+    color: white;
+    font-size: 50px;
+  }
+
+  audio:hover {
+    background-attachment: fixed;
+    background-image: url('video/giphy.gif');
+    background-repeat: no-repeat;
+    border-radius: 5px;
+  }
+.imgg h{
+  color: white;
+}
+  h1 {
+    font-size: 50px;
+    font-style: bold;
+    color: #fcfcfc;
+  }
+
+
+ .imgg h2 {
+    color: white;
+  }
+
+  a {
+    color: yellowgreen;
+    font-size: 20px;
+  }
+
+  h3 {
+    color: orange;
+    font-size: 20px;
+  }
+
+  .audio {
+    background-attachment: fixed;
+    background-image: url('images/music.jpg.jpeg');
+    background-repeat: no-repeat;
+    background-size: cover;
+
+  }
+
+  .main {
+
+
+    font-size: 25px;
+    background: linear-gradient(orange, white, green);
+    width: 100%;
+    position: sticky;
+    top: 0px;
+
+  }
+
+  #bt {
+    color: blue;
+  }
+
+  .logo {
+    width: 10vw;
+    line-height: 7vh;
+  }
+
+  .logo img {
+    float: left;
+  }
+
+  .logo {
+    width: 10vw;
+    line-height: 7vh;
+  }
+
+  .logo img {
+    float: left;
+  }
+
+  .navbar {
+    width: 100%;
+    justify-content: end;
+  }
+
+  .navbar-expand-lg .navbar-collapse {
+    justify-content: end;
+
+  }
+
+  .navv {
+    justify-content: space-around;
+    color: blue;
+  }
+
+  .img {
+    width: 50%;
+    height: 40%;
+    filter: grayscale(100);
+    border-radius: 10px;
+    text-align: center;
+  }
+
+  .img:hover {
+    filter: none;
+  }
+.imgg{
+    
+    background-image: url('https://www.pixelstalk.net/wp-content/uploads/2016/08/In-gods-country-best-premium-scenic-free-desktop-background.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}

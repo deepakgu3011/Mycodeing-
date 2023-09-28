@@ -1,0 +1,400 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+::-webkit-scrollbar {
+  width: 0.5vw;
+  height: 3%;
+  background:linear-gradient(orange, white, green);
+}
+.main {
+
+  display: flex;
+  font-size: 25px;
+  background: linear-gradient(orange, white, green);
+  width: 100%;
+  position: sticky;
+
+  top: 0px;
+
+  z-index: 1;
+}
+.main h3{
+  color: blue;
+}
+
+.logo {
+  width: 10vw;
+
+}
+
+
+.navbar {
+  width: 100%;
+  justify-content: end;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
+
+}
+
+.nav-item {
+  color: rgb(234, 13, 13);
+}
+
+.navbar-toggler-icon {
+  color: red;
+}
+
+.nav-item:hover {
+  color: #2758b2;
+}
+
+.sen {
+  height: 700px;
+  background-size: cover;
+  border-radius: 2vw;
+  background-repeat: no-repeat;
+  animation-name: bgsl;
+  transition: 5s;
+  animation-duration: 6s;
+  animation-iteration-count: infinite;
+  transform: scaleX(1);
+}
+
+@keyframes bgsl {
+  0% {
+    background-image: url('images/Delhi-ka-lal-kila.jpg');
+    background-repeat: no-repeat;
+    height: 50vw;
+
+  }
+
+  10% {
+    background-image: url('images/golden-temple_1.jpg');
+    background-repeat: no-repeat;
+    height: 50vw;
+  }
+
+  20% {
+    background-image: url('images/tourist-places-in-bihar2.jpg');
+    background-repeat: no-repeat;
+    height: 50vw;
+  }
+
+  30% {
+    background-image: url('images/Varanasi-The-oldest-city-of-India.jpg');
+    background-repeat: no-repeat;
+    height: 50vw;
+  }
+
+  40% {
+    background-image: url('images/gujarat-temple-tour-855.jpeg');
+    background-repeat: no-repeat;
+    height: 50vw;
+    background-size: cover;
+  }
+
+  50% {
+    background-image: url('images/tourist-places-in-mumbai.jpg');
+    background-repeat: no-repeat;
+    height: 50vw;
+    background-size: cover;
+
+  }
+
+  60% {
+    background-image: url('images/tamilnadu.webp');
+    background-repeat: no-repeat;
+    height: 50vw;
+    background-size: cover;
+
+  }
+
+  70% {
+    background-image: url('images/Bogmalo-Beach-goa.jpg');
+    background-repeat: no-repeat;
+    height: 50vw;
+    background-size: cover;
+
+  }
+
+  80% {
+    background-image: url('images/srinagar-2.jpg');
+    background-repeat: no-repeat;
+    height: 50vw;
+    background-size: cover;
+
+  }
+
+  90% {
+    background-image: url('images/tourist-places-in-the-himalayas2.png');
+    background-repeat: no-repeat;
+    height: 50vw;
+    background-size: cover;
+
+  }
+
+  100% {
+    background-image: url('images/tourist-places-in-the-himalayas2.png');
+    background-repeat: no-repeat;
+    height: 50vw;
+    background-size: cover;
+  }
+
+}
+
+.t1 {
+  font-size: 6vw;
+  position: relative;
+  top: 6vw;
+}
+
+.div {
+  font-size: 2vw;
+  position: relative;
+  top: 12vw;
+
+}
+
+.ct::after {
+  content: "";
+  color: red;
+  -ms-transform-origin-x: 5dvh;
+  transition: 5s;
+  animation-name: ct;
+  animation-duration: 10s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes ct {
+  5% {
+    content: 'Delhi';
+    color: blue;
+  }
+
+  10% {
+    content: 'Punjab';
+    color: blue;
+  }
+
+  20% {
+    content: 'Bihar';
+    color: blue;
+  }
+
+  30% {
+    content: 'Uttar Pardesh';
+    color: blue;
+  }
+
+  40% {
+    content: 'Gujrat';
+    color: blue;
+  }
+
+  50% {
+    content: 'Mumbai';
+    color: blue;
+  }
+
+  60% {
+    content: 'Tamil Nadu';
+    color: blue;
+  }
+
+  70% {
+    content: 'Goa';
+    color: blue;
+  }
+
+  80% {
+    content: 'Jammu & kashmir';
+    color: blue;
+  }
+
+  90% {
+    content: 'Himalaya';
+    color: blue;
+
+  }
+
+  100% {
+    content: 'Hyderabad';
+    color: blue;
+  }
+
+}
+
+@keyframes watch {
+  0% {
+    color: red;
+  }
+
+  25% {
+    color: gray;
+  }
+
+  50% {
+    color: rebeccapurple;
+  }
+
+  75% {
+    color: rgb(43, 226, 202);
+  }
+
+  100% {
+    color: chartreuse;
+  }
+
+}
+
+.into {
+  width: 100%;
+  justify-content: space-between;
+  padding: 2vw ;
+}
+
+.intro {
+    border: 0.5px solid black;
+    border-radius: 2vw;
+    background-color: #00ffff24;
+    padding: 4vw;
+    margin-top: 2vw;
+}
+
+.intro img {
+  float: left;
+  width: 44.9vw;
+  padding: 1vw;
+}
+
+#intro {
+
+  font-size: 1.5vw;
+
+  text-align: justify;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.video {
+  display: inline;
+  justify-content: center;
+  justify-content: space-evenly;
+  width: 100%;
+  padding: 3vw 0vw 3vw 0vw;
+  background-color: rgba(27, 240, 169, 0.136);
+}
+
+.video h1 {
+  margin-top: 10vw;
+  animation-name: watch;
+  animation-duration: 5s;
+  animation-iteration-count: infinite;
+  transition: 100s;
+}
+
+.video1 {
+  padding: 3vw 0vw 3vw 0vw;
+  
+
+}
+
+iframe:hover {
+  cursor: zoom-in;
+}
+
+.video iframe {
+  border-radius: 0.5em;
+  justify-content: center;
+}
+
+.edn {
+  width: 100%;
+  align-items: end;
+  color: blue;
+}
+
+.end {
+  background-color: gray;
+  color: white;
+  text-align: center;
+  padding: 2vw;
+}
+
+/* media query  form mobile responsive*/
+/* Default styles for all screen sizes */
+* {
+  margin: 0;
+  padding: 0;
+}
+
+.main {
+  display: flex;
+  font-size: 25px;
+  background: linear-gradient(orange, white, green);
+  width: 100%;
+  position: sticky;
+  top: 0px;
+  z-index: 1;
+}
+
+/* Logo size adjustment for smaller screens */
+.logo {
+  width: 10vw;
+}
+
+.navbar {
+  width: 100%;
+  justify-content: end;
+}
+
+.navbar-expand-lg .navbar-collapse {
+  justify-content: end;
+}
+
+.nav-item {
+  color: rgb(234, 13, 13);
+}
+
+/* Adjust font size for smaller screens */
+@media screen and (max-width: 768px){
+  .sen{
+    height:800px ;
+  }
+}
+@media screen and (max-width: 768px) {
+  .main {
+    font-size: 20px;
+  }
+
+  .nav-item {
+    font-size: 18px;
+  }
+}
+
+/* Media query for tablets and larger screens */
+@media screen and (min-width: 768px) {
+
+  /* Increase logo size for tablets and larger screens */
+  .logo {
+    width: 15vw;
+  }
+  
+}
+
+/* Media query for desktop screens */
+@media screen and (min-width: 1024px) {
+
+  /* Increase font size for desktop screens */
+  .main {
+    font-size: 30px;
+  }
+
+  .nav-item {
+    font-size: 24px;
+  }
+}
+
+/* Add more media queries as needed for specific screen sizes */
